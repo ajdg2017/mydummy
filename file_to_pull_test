@@ -1,0 +1,11 @@
+# this is a line in feature branch
+# okay so pull did not work as I had hoped, but... 
+
+
+git merge remotename/branchname <HEAD> 
+
+
+did the trick and imported changes made to develop (and pushed to origin) into the current branch <HEAD>
+
+
+
