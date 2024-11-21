@@ -7,7 +7,7 @@ requires-python = ">= 3.10"
 name = "mydummy"
 version = "0.0.1" 
 description = "tester"
-readme = README.md
+readme = "README.md"
 dependencies=[
     "pandas"
     "click"
