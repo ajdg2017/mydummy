@@ -3,12 +3,12 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-requires-python = ">= 3.10"
-name = "mydummy"
-version = "0.0.1" 
-description = "tester"
-readme = "README.md"
-dependencies=[
-    "pandas"
-    "click"
+name = "test_ajd"
+version = "0.0.1"
+dependencies = [
+  "pandas",
+  "click",
+  "typing",
+  "json",
 ]
+requires-python = ">=3.10"
